@@ -17,9 +17,16 @@ contract parent{
 }
 
 contract child is parent{
-    
+
     function getName() public view returns(string memory){
         return name;
     }
 
+}
+
+contract functionVisibility{
+    string name;
+    function getName() internal view returns(string memory){
+        return name;
+    }
 }

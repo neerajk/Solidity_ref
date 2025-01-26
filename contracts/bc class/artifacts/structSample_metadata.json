@@ -11,6 +11,19 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "returnvalue",
+						"type": "bool"
+					}
+				],
+				"name": "newLearner",
+				"type": "event"
+			},
+			{
 				"inputs": [],
 				"name": "Simplilearn",
 				"outputs": [
@@ -118,11 +131,11 @@
 	},
 	"sources": {
 		"contracts/bc class/const.sol": {
-			"keccak256": "0xa7c29334970ac636b0360cb72b38b7f092f811e75cdac7ab4451625459c811c1",
+			"keccak256": "0x843d84bcd6ccb9d7a8965d956e26d3792e4ca3ccb6772e64fbd1b924f0dd6cb7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e22bb33302cea4c2d2b242d2bdeae74ca494e6acfe34cf7fa31ba53f5c42aa14",
-				"dweb:/ipfs/QmfDRziQ4nrf4tsJ6QsE4d6BepAZK4GHkgif3S3HUS25Km"
+				"bzz-raw://55dd7ef79671a8d623ffe89f20c0e39228be0f3d5b44505b6c84e232de9993b0",
+				"dweb:/ipfs/Qmc7JjadX4sCuTzpGa2ufttZaULf9qL4EQHXQCydsJjZRm"
 			]
 		}
 	},

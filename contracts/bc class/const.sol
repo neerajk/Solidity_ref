@@ -10,6 +10,11 @@ contract structSample {
         require(msg.sender == Simplilearn);
         _;
     }
+
+    //event
+    //event newLearner(string name, uint8 age);
+    event newLearner(bool returnvalue);
+
     struct learner{
         string name;
         uint8 age;
@@ -25,6 +30,12 @@ contract structSample {
         //learners[1].age=40
         learners[_key].name =_name;
         learners[_key].age =_age;
+
+        //emit newLearner(_name, _age);
+
+        if(_age > 21){
+            emit newLearner(true);
+        }
        
     }
     function getLearnerdetails(uint _key) public view returns(string memory){
