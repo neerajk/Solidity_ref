@@ -25,11 +25,15 @@ contract TokenERC20 {
     mapping(address => mapping(address => uint256)) public allowance;
     event Transfer(address indexed from, address indexed to, uint256 value);
     event Approval(
+        
         address indexed _owner,
         address indexed _spender,
         uint256 _value
     );
     event Burn(address indexed from, uint256 value);
+    
+    // SPDX-License-Identifier: MIT
+    sha256(uint256);
 
     constructor(
         uint256 initialSupply,
@@ -64,6 +68,7 @@ contract TokenERC20 {
         return true;
     }
 
+
     function transferFrom(
         address _from,
         address _to,
@@ -75,6 +80,7 @@ contract TokenERC20 {
         return true;
     }
 
+
     function approve(address _spender, uint256 _value)
         public returns (bool success)
     {
@@ -82,6 +88,7 @@ contract TokenERC20 {
         emit Approval(msg.sender, _spender, _value);
         return true;
     }
+
 
     function approveAndCall(
         address _spender,

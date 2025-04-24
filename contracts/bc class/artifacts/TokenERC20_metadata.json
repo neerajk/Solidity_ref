@@ -347,9 +347,9 @@
 	},
 	"sources": {
 		"contracts/bc class/21token.sol": {
-			"keccak256": "0x56f24717968f1c64a995f5edb64ebe63ce311eb1ec58f135608b1cad23bd64bf",
+			"keccak256": "0x537daa9e5f03bc7c07b002b8246c5a89810c7bfc701304ba4e6088ad9361dfe2",
 			"urls": [
-				"bzzr://2b2a6e2f0ce2baa959aeef9db19a375bf49f5ad6b88c42470ffba3e75fc99070"
+				"bzzr://bfe21c9eac2d85b2ec289174cf9daf5ac7cac6f89b6e3f41cae05c1e09bb91c0"
 			]
 		}
 	},

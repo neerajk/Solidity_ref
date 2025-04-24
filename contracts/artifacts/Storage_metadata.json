@@ -1,13 +1,13 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "get",
+				"name": "retrieve",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -22,32 +22,35 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "x",
+						"name": "num",
 						"type": "uint256"
 					}
 				],
-				"name": "set",
+				"name": "store",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "storeddata",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
 		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
 			"kind": "dev",
-			"methods": {},
+			"methods": {
+				"retrieve()": {
+					"details": "Return value ",
+					"returns": {
+						"_0": "value of 'number'"
+					}
+				},
+				"store(uint256)": {
+					"details": "Store value in variable",
+					"params": {
+						"num": "value to store"
+					}
+				}
+			},
+			"title": "Storage",
 			"version": 1
 		},
 		"userdoc": {
@@ -58,7 +61,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/logistics.sol": "SimpleStorage"
+			"contracts/1_Storage.sol": "Storage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -72,12 +75,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/logistics.sol": {
-			"keccak256": "0x88cc8dfcc7c0c1704a048b6593eedff16273d7a82e6a26f53c137faae69abdd6",
-			"license": "MIT",
+		"contracts/1_Storage.sol": {
+			"keccak256": "0xeb762122ef8f60ada724bf0c979e253544d92111a144f7766d082929f55ed887",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b135a462b0a39a338bef4a06f74ea77456cf696ee2e65fc0ed09ec99e11a8a34",
-				"dweb:/ipfs/QmZBjhQg22fLaj8TiXxFjmcSdicHmbucFmsPopVuvjzzGx"
+				"bzz-raw://ff2146b81aa20409098fb012229b92cce23b8a1ecd9bb0f4d88120709ed4c1ec",
+				"dweb:/ipfs/Qmdd1BonXKQbY31Mt9rQsFxGc3SrJEttxKe9YB5vmRyMYG"
 			]
 		}
 	},

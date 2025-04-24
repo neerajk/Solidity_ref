@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/logistics.sol": "IntellectualPropertyRegistry"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/logistics.sol": {
+			"keccak256": "0xb11fcd003369402f2a9d34ed534019b48e6b770bd434dc7f29cb833317a75b26",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d93447f5e9331688822b897c9d9c0ff286fe1ab735fe4285f3edac6f66b8ce6d",
+				"dweb:/ipfs/QmNnAunbHBz7GD5Mq7fzM8DPtqUM6x8kLjrvxPn7F6gj2N"
+			]
+		}
+	},
+	"version": 1
+}
